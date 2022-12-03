@@ -46,7 +46,7 @@ int stickFilter(int stickVal)
 
 void arcadeControl(int power, int turn)
 {
-    setDrive(power + turn, power - turn);
+    setDrive(power - turn, power + turn);
 }
 
 
